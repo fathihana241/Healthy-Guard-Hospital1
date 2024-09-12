@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="pharmacy.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---navigation bar start--->
+    <nav>
+        <a href="./Home.html" class="logo">
+            <img src="./photos/logo1.png" alt="logo img">
+        </a>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#5f6368">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+            </svg>
+        </label>
+        <label id="overlay" for="sidebar-active"></label>
+    
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#5f6368">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </label>
+            <a href="./Home.html" class="home-links">HOME</a>
+            <a href="./about1.html">ABOUT US</a>
+            <a href="./contact us (2).html">CONTACT US</a>
+            <a href="./Doctors1.html">DOCTORS</a>
+            <a href="./services1.html">SERVICES</a>
+            <a href="./C&R1.html">CONSULTING RESERVATION</a>
+            <a href="./pharmacy1.html">PHARMACY</a>
+        </div>  
+       
+
+         <!-- Search Bar -->
+    <form class="search-bar" action="/search" method="GET">
+        <input type="text" placeholder="Search..." name="q" class="search-input">
+        <button type="submit" class="search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" fill="#5f6368">
+                <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+            </svg>
+        </button>
+    </form>
+    </nav>
+     <!---navigation bar end--->
+    <section>
+        <header class="header">
+        </header>
+    </section>
+    <section>
+        <h3>
+            Our Pharmacy service
+        </h3>
+        <p class="parah">Welcome to Healthy Guard's online pharmacy, where we make ordering your medications safe, convenient,
+             and hassle-free. Our pharmacy offers a wide range of trusted pharmaceutical products, including prescription drugs, 
+             over-the-counter medications, and healthcare essentials. With our user-friendly system, you can easily browse our catalog, 
+             upload your prescription, and place an order in just a few clicks. We are committed to making your healthcare journey smoother
+              by ensuring that your medications are always accessible,
+             whether for pick-up at our hospital or delivered directly to your door.
+            </p>
+            <p class="parah">
+                Our goal is to provide high-quality, reliable service that prioritizes your health and well-being.
+                 Our experienced pharmacy team is here to support you, ensuring that you receive the right medication and care, 
+                 every time. With fast delivery options and a commitment to patient safety, we’re here to make sure your treatment 
+                 continues without interruption, from the comfort of your home.
+            </p>
+    </section>
+    <section>
+        <h3 class="form-heading">Pharmacy Essentials at Your Fingertips</h3>
+    </section>
+    <section>
+        <div class="product-container">
+        
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha1.jpeg" alt="Product 1 Image" class="product-image">
+                <h2 class="product-title">Fit Air Walker Boot</h2>
+                <p class="product-price">$50.89</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha10.jpeg" alt="Product 2 Image" class="product-image">
+                <h2 class="product-title">Globalmed Clearprobe</h2>
+                <p class="product-price">$29.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha11.jpeg" alt="Product 3 Image" class="product-image">
+                <h2 class="product-title">Packet</h2>
+                <p class="product-price">$10.89</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 4 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha2.jpeg" alt="Product 4 Image" class="product-image">
+                <h2 class="product-title">injection</h2>
+                <p class="product-price">$12.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 5 -->
+            <div class="product-item">
+                <img src="./photos/3M™ Micropore™ Paper Medical Tape  1_2 Inch x 10 Yard  Tan.jpeg" alt="Product 5 Image" class="product-image">
+                <h2 class="product-title">Micropore paper Medical Tape</h2>
+                <p class="product-price">$10.67</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 6 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha4.jpeg" alt="Product 6 Image" class="product-image">
+                <h2 class="product-title">Fingerprint Pluse Oximeter</h2>
+                <p class="product-price">$56.78</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 7 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha5.jpeg" alt="Product 7 Image" class="product-image">
+                <h2 class="product-title">Blood Pressure Cuff.</h2>
+                <p class="product-price">$38.78</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 8 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha6.jpeg" alt="Product 8 Image" class="product-image">
+                <h2 class="product-title">thermometer</h2>
+                <p class="product-price">$10.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 9 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha7.jpeg" alt="Product 9 Image" class="product-image">
+                <h2 class="product-title">thermometer Gun</h2>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 10 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha8.jpeg" alt="Product 10 Image" class="product-image">
+                <h2 class="product-title">Inhaler</h2>
+                <p class="product-price">$20</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 11 -->
+            <div class="product-item">
+                <img src="../hospital mangment/photos/pha9.jpeg" alt="Product 11 Image" class="product-image">
+                <h2 class="product-title">Wrist Splint</h2>
+                <p class="product-price">$40</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 12 -->
+            <div class="product-item">
+                <img src="./photos/3M™ Sterile Tegaderm Film - 25 Pack.jpeg" alt="Product 12 Image" class="product-image">
+                <h2 class="product-title">Tegaderm Transparent</h2>
+                <p class="product-price">10.98</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 13 -->
+            <div class="product-item">
+                <img src="./photos/Personal Steamer.jpeg" alt="Product 13 Image" class="product-image">
+                <h2 class="product-title">Mask Inhaler</h2>
+                <p class="product-price">$40.76</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 14 -->
+            <div class="product-item">
+                <img src="./photos/Personal Care _ Target.jpeg" alt="Product 14 Image" class="product-image">
+                <h2 class="product-title">Cotton Balls</h2>
+                <p class="product-price">$21.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+            <!-- Product 15 -->
+            <div class="product-item">
+                <img src="./photos/Numark Antiseptic Wipes 10 Pack.jpeg" alt="Product 15 Image" class="product-image">
+                <h2 class="product-title">Antiseptic Wipes</h2>
+                <p class="product-price">$39</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+    
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <section class="chart-section">
+        <h2>Pharmacy Analytics</h2>
+        <br>
+        <br>
+    
+        <!-- Donut Chart -->
+        <div class="donut-chart">
+          <div class="donut">
+            <div class="donut-segment segment1"></div>
+            <div class="donut-segment segment2"></div>
+            <div class="donut-segment segment3"></div>
+            <div class="donut-segment segment4"></div>
+            <div class="donut-center">40%</div>
+          </div>
+          <div class="chart-labels">
+            <div><span class="color-box" style="background-color: #033c61;"></span> Prescription Medications (40%)</div>
+            <div><span class="color-box" style="background-color: #0e67a2;"></span> Over-the-Counter Drugs (25%)</div>
+            <div><span class="color-box" style="background-color: #36A2EB;"></span> Vitamins & Supplements (20%)</div>
+            <div><span class="color-box" style="background-color: #a8d5f3;"></span> Personal Care (15%)</div>
+          </div>
+        </div>
+    
+        <!-- Progress Bar Chart -->
+        <div class="progress-bar-chart">
+          <div class="progress-bar" style="--width: 80%; --color:  #033c61;">Product A (80%)</div>
+          <div class="progress-bar" style="--width: 60%; --color: #0e67a2;">Product B (60%)</div>
+          <div class="progress-bar" style="--width: 50%; --color: #36A2EB;">Product C (50%)</div>
+          <div class="progress-bar" style="--width: 70%; --color: #a8d5f3;">Product D (70%)</div>
+        </div>
+      </section>
+    <section>
+        <h3 class="form-heading">Shop Health, Live Better</h3>
+    </section>
+    <section>
+        <div class="row">
+            <div class="container">
+                <form action="POST" class="form">
+                    <!-- Patient Information Section -->
+                    <h4>Patient Information</h4>
+                    <div class="name-box">
+                        <div class="input-box">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" placeholder="Enter first name" />
+                        </div>
+                        <div class="input-box">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" placeholder="Enter last name" />
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" />
+                    </div>
+                    <div class="input-box">
+                        <label for="phone">Contact Number</label>
+                        <input type="tel" id="phone" placeholder="Enter phone number" />
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter email address" />
+                    </div>
+                    <div class="input-box">
+                        <label for="address">Delivery Address</label>
+                        <textarea id="address" placeholder="Enter your delivery address"></textarea>
+                    </div>
+    
+                    <!-- Prescription Information Section -->
+                    <h4>Prescription Information (if applicable)</h4>
+                    <div class="input-box">
+                        <label for="prescription-required">Do you have a prescription? (Yes/No)</label>
+                        <input type="text" id="prescription-required" placeholder="Yes or No" />
+                    </div>
+                    <div class="input-box">
+                        <label for="prescription-upload">Upload Prescription</label>
+                        <input type="file" id="prescription-upload" />
+                    </div>
+    
+                    <!-- Medicine Selection Section -->
+                    <h4>Medicine Selection</h4>
+                    <div class="input-box">
+                        <label for="medicine-name">Medicine Name</label>
+                        <input type="text" id="medicine-name" placeholder="Enter medicine name(s)" />
+                    </div>
+                    <div class="input-box">
+                        <label for="dosage">Dosage</label>
+                        <input type="text" id="dosage" placeholder="Enter dosage" />
+                    </div>
+                    <div class="input-box">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" placeholder="Enter quantity" />
+                    </div>
+                    <div class="input-box">
+                        <label for="special-instructions">Special Instructions</label>
+                        <textarea id="special-instructions" placeholder="Enter special instructions"></textarea>
+                    </div>
+    
+                    <!-- Payment Information Section -->
+                    <h4>Payment Information</h4>
+                    <div class="input-box">
+                        <label for="payment-method">Payment Method</label>
+                        <select id="payment-method">
+                            <option value="credit-card">Credit/Debit Card</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="insurance">Insurance</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label for="card-details">Card Details (if applicable)</label>
+                        <input type="text" id="card-details" placeholder="Enter card number" />
+                    </div>
+    
+                    <!-- Delivery Information Section -->
+                    <h4>Delivery Information</h4>
+                    <div class="input-box">
+                        <label for="delivery-option">Delivery Option</label>
+                        <select id="delivery-option">
+                            <option value="pick-up">Pick-up from pharmacy</option>
+                            <option value="home-delivery">Home delivery</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label for="delivery-time">Preferred Delivery Time</label>
+                        <select id="delivery-time">
+                            <option value="morning">Morning</option>
+                            <option value="afternoon">Afternoon</option>
+                            <option value="evening">Evening</option>
+                        </select>
+                    </div>
+    
+                    <!-- Insurance Information Section (if applicable) -->
+                    <h4>Insurance Information (if applicable)</h4>
+                    <div class="input-box">
+                        <label for="insurance-provider">Insurance Provider</label>
+                        <input type="text" id="insurance-provider" placeholder="Enter insurance provider" />
+                    </div>
+                    <div class="input-box">
+                        <label for="insurance-policy-number">Insurance Policy Number</label>
+                        <input type="text" id="insurance-policy-number" placeholder="Enter policy number" />
+                    </div>
+                    <div class="input-box">
+                        <label for="insurance-upload">Upload Insurance Card</label>
+                        <input type="file" id="insurance-upload" />
+                    </div>
+    
+                    <!-- Feedback Section (Optional) -->
+                    <h4>Feedback (Optional)</h4>
+                    <div class="input-box">
+                        <label for="rating">Service Rating (1-5 stars)</label>
+                        <input type="number" id="rating" min="1" max="5" />
+                    </div>
+                    <div class="input-box">
+                        <label for="suggestions">Suggestions/Comments</label>
+                        <textarea id="suggestions" placeholder="Enter your comments"></textarea>
+                    </div>
+    
+                    <!-- Submit Section -->
+                    <div class="submit-box">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    </section>
+
+
+   
+<!---footer start-->
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="./photos/logo1.png" alt="logo-img" class="logo-img">
+                    <p>Hospitality Hospital takes pride in being at the forefront of medical innovation.<br>
+                        Our commitment to global standards is exemplified by our unmatched State-of-the-Art Meditec facilities,<br>
+                        ensuring that you receive nothing but the best.</p>
+                </div>
+                <div class="col">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="./Home.html">HOME</a></li>
+                        <li><a href="./about1.html">ABOUT US</a></li>
+                        <li><a href="./contact us (2).html">CONTACT US</a></li>
+                        <li><a href="./Doctors1.html">DOCTORS</a></li>
+                        <li><a href="./services1.html">SERVICE</a></li>
+                        <li><a href="./C&R1.html">CONSULTING RESERVATION</a></li>
+                        <li><a href="./pharmacy1.html">PHARMACY</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Important Links</h3>
+                    <p>Contact Number: +94 71 99 25 400</p>
+                    <p>Email:Healthyguard@gmail.com</p>
+                    <p><a href="../hospital mangment/contact us (2).html" class="btnn1">Location</a></p>
+                    <p><a href="../hospital mangment/about1.html" class="btnn1">Chairmans Message</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Healthy Guard, all rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+<!--footer end-->
+    
+</body>
+</html>
